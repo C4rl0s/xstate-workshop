@@ -1,0 +1,30 @@
+{
+  "name": "xstate-workshop",
+  "version": "1.0.0",
+  "description": "echo \"# xstate-workshop\" >> README.md git init git add README.md git commit -m \"first commit\" git branch -M main git remote add origin git@github.com:C4rl0s/xstate-workshop.git git push -u origin main",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/**/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C4rl0s/xstate-workshop.git"
+  },
+  "keywords": [],
+  "author": "Roberto Avendaño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C4rl0s/xstate-workshop/issues"
+  },
+  "homepage": "https://github.com/C4rl0s/xstate-workshop#readme",
+  "dependencies": {
+    "xstate": "^4.9.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "concurrently": "^5.2.0",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "1.23.7"
+  }
+}
